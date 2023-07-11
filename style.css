@@ -2,54 +2,75 @@
 *{
     padding:0;
     margin:0;
-    padding-bottom: 20px;
 }
 
 /* header section Style */
 
-.header-section{
-    background-color: #E554731A;
- 
-    
+
+.banner-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 0px 100px;
+
 }
 
+
+.banner{
+  align-items: center;
+
+}
 .header-title{
-    display: flex;
-    padding: 80px 200px ;
-     width: 708px;
-    flex-direction: column;
-    color: #272727;
-    font-family: Lato;
-    font-size: 80px;
-    font-weight: 800;
-   
+    align-items: center;
+
 }
 
 .header-descrition{
-    display: flex;
-width: 634px;
-flex-direction: column;
-color: #272727;
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
- line-height: 30px;
- padding-left: 200px;
- margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px  ;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.shop-button{
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: #E55473;
+    color: azure;
+    border: 0;
+
 }
 
-.btn-primary{   
-    color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-weight: 700;
-display: inline-flex;
-padding: 20px 43px;
-align-items: center;
-gap: 10px;
-background-color:#E55473;}
+.image-section{
+    height: 300px;
+    width: 250px;
+
+  
+}
+
+.flower-image{
+    align-items: center;
+
+}
 
 .middle-section{
-    width: 1920px;
-height: 4867px;
+   margin-top:40px ;
+    
 }
+
+.middle-title{
+    margin: 10px 20px;
+    text-align: center;
+}
+.middle-description{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 10px ;
+    
+
+  }  
+
+
+
+
